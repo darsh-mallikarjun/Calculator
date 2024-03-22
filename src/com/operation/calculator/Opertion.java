@@ -31,22 +31,22 @@ public class Opertion {
          switch (choice) {
          case 1:
              Addition addition = new Addition();
-               result =addition.Addition(num1, num2);
+               result =addition.add(num1, num2);
                System.out.println("result:"+ result);
              break;
          case 2:
              Subtraction sub = new Subtraction();;
-               result=sub.Subtraction(num1, num2);
+               result=sub.sub(num1, num2);
                System.out.println("result:"+ result);
              break;
          case 3:
              Multiplication multipy = new Multiplication();
-               result=multipy.Multiplication(num1,num2);
+               result=multipy.multiply(num1,num2);
                System.out.println("result:"+ result);
              break;
          case 4:
              Division div = new Division();
-               result=div.Division(num1,num2);
+               result=div.div(num1,num2);
                System.out.println("result:"+ result);
              break;
          default:
